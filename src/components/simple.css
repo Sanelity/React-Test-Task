@@ -1,0 +1,32 @@
+.addPadding{
+    justify-content: center;
+    margin: 8px;
+    display: flex;
+}
+.leftspace{
+    margin-left: 8px;
+}
+.item{
+    margin: 4px;
+}
+.app{
+    padding-top: 10px;
+    justify-content: center;
+    min-width: 800px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.minHeight{
+    min-height: 455px;
+}
+
+.post{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
