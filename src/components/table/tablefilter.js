@@ -133,6 +133,7 @@ export function TableFilter({setFilter}){
             <InputGroup>
                     <Form.Control
                         name={"lower"}
+                        value={readValue("lower")}
                         isInvalid={checkValue("lower")}
                         onChange={handleInputChange}
                         placeholder="Value from"
@@ -141,6 +142,7 @@ export function TableFilter({setFilter}){
                     />
                     <Form.Control
                         name={"higher"}
+                        value={readValue("higher")}
                         isInvalid={checkValue("higher")}
                         onChange={handleInputChange}
                         placeholder="Value up to"
