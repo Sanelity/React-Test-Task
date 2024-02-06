@@ -30,6 +30,18 @@ export function SwitchTab(){
       setChanged(true);
     }
 
+    const titleChanger = () => {
+      switch(viewMode){
+        case(1): return "Table data view";
+        case(2): return "Graph data view"
+        default: return "Covid-19 Statistics"
+      }
+    }
+
+    useEffect(() => {
+      document.title = titleChanger();
+    }, [viewMode])
+
 
     const modes = {
         [tabMode]: {
